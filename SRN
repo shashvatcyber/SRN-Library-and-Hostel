@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Women Only PG & Hostel | Home Away From Home</title>
+  <style>
+    body { margin:0; font-family: Arial, Helvetica, sans-serif; color:#222; line-height:1.6; }
+    header { background: linear-gradient(120deg,#d81b60,#f48fb1); color:#fff; padding:70px 20px; text-align:center; }
+    header h1 { font-size:2.6rem; margin-bottom:10px; }
+    header p { max-width:850px; margin:0 auto 30px; font-size:1.1rem; }
+    .btn { display:inline-block; background:#fff; color:#d81b60; padding:12px 28px; border-radius:30px; text-decoration:none; font-weight:bold; }
+    section { padding:60px 20px; max-width:1100px; margin:auto; }
+    h2 { text-align:center; margin-bottom:40px; color:#d81b60; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:30px; }
+    .card { background:#f9f9f9; padding:25px; border-radius:14px; box-shadow:0 6px 14px rgba(0,0,0,0.06); text-align:center; }
+    .gallery img { width:100%; border-radius:14px; }
+    .about { background:#fff0f5; border-radius:16px; padding:50px 30px; }
+    .pricing .card h3 { margin-bottom:10px; }
+    .pricing p.price { font-size:1.4rem; font-weight:bold; color:#d81b60; }
+    .testimonials { background:#f5f5f5; border-radius:16px; }
+    .cta { background:#d81b60; color:#fff; text-align:center; border-radius:16px; padding:70px 30px; }
+    footer { background:#111; color:#bbb; text-align:center; padding:22px; font-size:0.9rem; }
+    footer a { color:#bbb; text-decoration:none; }
+    /* WhatsApp Floating Button */
+    .whatsapp { position:fixed; bottom:20px; right:20px; background:#25D366; color:#fff; padding:14px 20px; border-radius:50px; text-decoration:none; font-weight:bold; box-shadow:0 4px 10px rgba(0,0,0,0.3); }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Women Only PG & Hostel</h1>
+  <p>
+    Safe • Clean • Nutritious Food • Caring Environment<br>
+    <strong>महिलाओं के लिए सुरक्षित और आरामदायक PG — बिल्कुल घर जैसा माहौल</strong>
+  </p>
+  <a href="#contact" class="btn">Schedule a Visit | विज़िट बुक करें</a>
+</header>
+
+<section>
+  <h2>Who We Serve | हम किसके लिए हैं</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Coaching Students</h3>
+      <p>For girls studying in Allen, Physics Wallah & other institutes. Safe, disciplined stay so parents remain worry-free.<br><strong>कोचिंग में पढ़ने वाली छात्राओं के लिए सुरक्षित वातावरण</strong></p>
+    </div>
+    <div class="card">
+      <h3>Working Women</h3>
+      <p>Comfortable stay for outstation working women with home-style food and cleanliness.<br><strong>कामकाजी महिलाओं के लिए शांत और सुरक्षित आवास</strong></p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>What Sets Us Apart | हमें अलग क्या बनाता है</h2>
+  <div class="grid">
+    <div class="card"><h3>Healthy Food</h3><p>Fresh, hygienic meals daily.<br>स्वच्छ और पौष्टिक भोजन</p></div>
+    <div class="card"><h3>Cleanliness</h3><p>Regular housekeeping & hygiene checks.<br>उच्च स्तर की साफ-सफाई</p></div>
+    <div class="card"><h3>Facilities</h3><p>Well-ventilated rooms, study areas, power backup.<br>आधुनिक सुविधाएँ</p></div>
+    <div class="card"><h3>Home Away From Home</h3><p>Caring women-only environment.<br>घर जैसा माहौल</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Gallery | हमारी सुविधाएँ</h2>
+  <div class="grid gallery">
+    <img src="https://via.placeholder.com/400x250?text=Rooms" alt="Rooms">
+    <img src="https://via.placeholder.com/400x250?text=Food" alt="Food">
+    <img src="https://via.placeholder.com/400x250?text=Kitchen" alt="Kitchen">
+    <img src="https://via.placeholder.com/400x250?text=Study+Area" alt="Study Area">
+  </div>
+</section>
+
+<section class="pricing">
+  <h2>Pricing & Room Types | कमरे और शुल्क</h2>
+  <div class="grid">
+    <div class="card"><h3>Single Sharing</h3><p class="price">₹XX,XXX / month</p><p>Private space, ideal for focused study.<br>एकल कमरा</p></div>
+    <div class="card"><h3>Double Sharing</h3><p class="price">₹XX,XXX / month</p><p>Comfortable & economical.<br>डबल शेयरिंग</p></div>
+    <div class="card"><h3>Triple Sharing</h3><p class="price">₹XX,XXX / month</p><p>Affordable option with comfort.<br>ट्रिपल शेयरिंग</p></div>
+  </div>
+</section>
+
+<section>
+  <h2>House Rules | हॉस्टल नियम</h2>
+  <div class="grid">
+    <div class="card"><p>• Entry timing to be followed strictly<br>• Visitors allowed only in common areas<br>• Maintain cleanliness & discipline<br>• No smoking / alcohol<br><strong>नियम समय-समय पर बदले जा सकते हैं</strong></p></div>
+    <div class="card"><p>• Silence during study hours<br>• Respect fellow residents<br>• Electricity & water to be used responsibly<br>• Management decision final</p></div>
+  </div>
+</section>
+
+<section class="testimonials">
+  <h2>Testimonials | अभिभावकों और रेज़िडेंट्स की राय</h2>
+  <div class="grid">
+    <div class="card"><p>“My daughter feels safe and happy here. Food and cleanliness are excellent.”<br><strong>– Parent</strong></p></div>
+    <div class="card"><p>“Feels like home. Perfect environment for studies.”<br><strong>– Student</strong></p></div>
+    <div class="card"><p>“Best PG for working women in Hisar.”<br><strong>– Working Professional</strong></p></div>
+  </div>
+</section>
+
+<section>
+  <h2>Location | हमारा स्थान</h2>
+  <p style="text-align:center;">Near major coaching hubs, Hisar – 125005</p>
+  <iframe src="https://www.google.com/maps?q=125005%20Hisar&output=embed" width="100%" height="300" style="border:0; border-radius:16px;"></iframe>
+</section>
+
+<section class="cta" id="contact">
+  <h2>Book a Visit Today | आज ही विज़िट बुक करें</h2>
+  <p>Call or WhatsApp us to check availability.</p>
+  <a href="tel:+91XXXXXXXXXX" class="btn">Call Now</a>
+</section>
+
+<footer>
+  <p>© 2026 Women Only PG & Hostel | Hisar</p>
+  <p>Phone: +91-XXXXXXXXXX</p>
+  <p>
+    <a href="https://instagram.com/yourpg" target="_blank">Instagram</a> |
+    <a href="https://facebook.com/yourpg" target="_blank">Facebook</a>
+  </p>
+</footer>
+
+<a class="whatsapp" href="https://wa.me/91XXXXXXXXXX" target="_blank">WhatsApp • Book Visit</a>
+
+</body>
+</html>
